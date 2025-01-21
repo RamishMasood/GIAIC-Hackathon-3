@@ -11,7 +11,7 @@ This marketplace provides dynamic product listings, category filters, detailed p
 **Daily Progress**
 
 **Day 1: Planning and Data Schema Design**
-1) Choose marketplace type: E-Commerce with complementary Rental option.
+1) Choose marketplace type: Rental E-Commerce with complementary purchase option.
 2) Defined business goals.
 3) Designed data schemas for products, orders, and customers.
 
