@@ -31,7 +31,7 @@ export default async function product({ params }: any) {
     // Ensure the index exists in the data array
     const product = data[index];
 
-    if (!data) {
+    if (!product) {
         return <div>Product not found at index {index}</div>;
     }
 
