@@ -1,0 +1,7 @@
+Test Case ID,Description,Expected Result,Status,Severity,Remarks
+TC001,Verify homepage loads correctly with optimal performance.,Homepage should load in under 3 seconds with no layout shifts.,Passed,Low,"Homepage performance is excellent, with no significant issues detected."
+TC002,Verify Largest Contentful Paint (LCP) is within acceptable limits.,LCP should be less than 1.2 seconds.,Passed,Medium,"LCP is well within acceptable limits, though an improvement in resource delivery can further optimize performance."
+TC003,Verify total blocking time (TBT) during page load.,TBT should not exceed 150ms.,Passed,Low,"Page load blocking time is excellent, indicating efficient script handling."
+TC004,Verify proper sizing of images to optimize loading time.,All images should be properly sized to avoid excess load time.,Failed,Medium,Some images are improperly sized; potential savings of 1.97MB identified.
+TC005,Verify JavaScript efficiency during page load.,No unused JavaScript should be present.,Failed,Low,Removing unused JavaScript can slightly improve performance.
+TC006,Ensure all resources use modern formats for faster load times.,Images and other assets should be served in next-gen formats where possible.,Failed,Low,"Convert images to next-gen formats (e.g., WebP) to reduce resource size."
